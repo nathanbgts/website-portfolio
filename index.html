@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>My Portfolio</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<main>
+<header>
+  <nav aria-label="Main navigation">
+    <a href="#home" tabindex="1">Home</a>
+    <a href="#about" tabindex="2">About</a>
+    <a href="#skills" tabindex="3">Skills</a>
+    <a href="#hobbies" tabindex="4">Hobbies</a>
+    <a href="#certificates" tabindex="5">Certificates</a>
+    <a href="#contact" tabindex="6">Contact</a>
+  </nav>
+</header>
+
+  <section id="home" aria-label="Home section">
+    <div class="main-container">
+     <img src="pic.jpg.jpg" alt="PROFILE PIC">
+    </div>
+    <div class="caption" aria-live="polite">
+      <span class="static-text">I'm</span><span class="dynamic-text" aria-atomic="true" aria-relevant="text"></span>
+    </div>
+  </section>
+
+  <section id="about" aria-label="About Me">
+    <h2>ABOUT ME </h2>
+    <p>Hello! I’m Jonathan Bagtas, 19 years old, and I’m a BSIT student at Pampanga State Agricultural University. I’m a person who enjoys learning and experiencing new things. I’m dedicated to my studies and I always try to stay positive and motivated in everything I do. I value teamwork, respect, and staying open-minded to different ideas and perspectives. I believe that every challenge is a chance to grow and improve, both as a student and as a person.
+  </section>
+
+  <section id="skills" aria-label="My Skills">
+    <h2>MY SKILLS </h2>
+    <ul>
+      <li>Basic Programming (HTML, CSS, JAVASCRIPT)
+      <li>Basic Graphic Design</li>
+      <li>Teamwork and collaboration</li>
+      <li>Creativity</li>
+      <li> Adaptability and flexibility</li>
+      <li> Willingness to learn</li>
+      <li> Organizational skills</li>
+      <li> Decision-making</li>  
+      <li> Critical Thinking </li>
+    </ul>
+  </section>
+
+  <section id="hobbies" aria-label="My Hobbies">
+    <h2>MY HOBBIES </h2>
+    <ul>
+      <li>Gaming</li>
+      <li>Watching Movies &amp; Series</li>
+      <li>Playing Badminton</li>
+      <li>Listening to Music</li>
+      <li>Travel</li>
+    </ul>
+  </section>
+
+  <section id="certificates" aria-label="Certificates">
+    <h2>SOLOLEARN CERTIFICATES</h2>
+    <div class="certificates-grid" role="list">
+      <img role="listitem" src="https://api2.sololearn.com/v2/certificates/CC-2TSKSVJF/image/png?t=638772792505275230
+      You sent
+      " alt="SoloLearn Certificate 1" width="280" height="196" />
+      <img role="listitem" src="https://api2.sololearn.com/v2/certificates/CC-3G1ILQAT/image/png?t=638814150062584730" alt="SoloLearn Certificate 2" width="280" height="196" />
+      <img role="listitem" src="https://api2.sololearn.com/v2/certificates/CC-M6F41ENP/image/png?t=638720166759616040" alt="SoloLearn Certificate 3" width="280" height="196" />
+    </div>
+  </section>
+
+  <section id="contact" aria-label="Contact">
+    <div class="container" role="main">
+      <div class="left-col" aria-label="Map image or contact info illustration">
+        <img src="https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400" alt="Golden map illustration" />
+      </div>
+      <div class="right-col">
+        <p>If you have any concerns, don't hesitate to message me.</p>
+        <h2>CONTACT ME</h2>
+        <form action="#" method="POST" aria-label="Contact form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required aria-required="true" />
+    
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required aria-required="true" />
+    
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject" required aria-required="true">
+            <option value="" disabled selected>Select a subject</option>
+            <option value="general">General Inquiry</option>
+            <option value="support">Support Request</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+          </select>
+    
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write your message here..." required aria-required="true"></textarea>
+    
+          <input type="submit" value="Send Message" aria-label="Send your message" />
+        </form>
+      </div>
+</section>
+
+</script>
+
+</main>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
